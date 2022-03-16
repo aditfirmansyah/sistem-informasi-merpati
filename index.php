@@ -5,7 +5,7 @@
   <!-- Required meta tags -->
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <link rel="icon" href="img/favicon.png" type="image/png" />
+  <link rel="icon" href="img/favvicon.png" type="image/png" />
   <title>KMPA - Beranda</title>
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="css/bootstrap.css" />
@@ -64,10 +64,9 @@
         <nav class="navbar navbar-expand-lg navbar-light w-100">
           <!-- Brand and toggle get grouped for better mobile display -->
           <a class="navbar-brand logo_h" href="#home">
-            <img src="img/logo2.png" alt="" />
+            <img src="img/logo.png" alt="" />
           </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="icon-bar" style="background-color: grey;"></span>
             <span class="icon-bar" style="background-color: grey;"></span>
             <span class="icon-bar" style="background-color: grey;"></span>
@@ -81,8 +80,7 @@
                     <a class="nav-link" href="#">Home</a>
                   </li>
                   <li class="nav-item submenu dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                      aria-expanded="false">Toko</a>
+                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Toko</a>
                     <ul class="dropdown-menu">
                       <li class="nav-item">
                         <a class="nav-link" href="category.html">Etalase Merpati</a>
@@ -169,9 +167,9 @@
       <div class="container">
         <div class="banner_content row">
           <div class="col-lg-12">
-            <h3><span style="color:aquamarine;">Memperkenalkan</span> <br />Koleksi Merpati <span style="color:aquamarine;"> <br> Kios Merpati Papi Agus</span></h3>
+            <h3>Memperkenalkan<br />Koleksi Merpati</h3>
             <h4>Tempatnya Merpati Juara.</h4>
-            <a style="background-color:aquamarine; color:black;" class="main_btn mt-40" href="#">Lihat Koleksi</a>
+            <a class="main_btn mt-40" href="#">Lihat Koleksi</a>
           </div>
         </div>
       </div>
@@ -184,7 +182,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-3 col-md-6">
-          <div class="single-feature">
+          <div class="single-feature view">
             <a href="#" class="title">
               <i class="flaticon-money"></i>
               <h3>Amanat</h3>
@@ -194,7 +192,7 @@
         </div>
 
         <div class="col-lg-3 col-md-6">
-          <div class="single-feature">
+          <div class="single-feature view">
             <a href="#" class="title">
               <i class="ti-world"></i>
               <h3>ONLINE</h3>
@@ -204,7 +202,7 @@
         </div>
 
         <div class="col-lg-3 col-md-6">
-          <div class="single-feature">
+          <div class="single-feature view">
             <a href="#" class="title">
               <i class="flaticon-support"></i>
               <h3>PELAYANAN</h3>
@@ -214,7 +212,7 @@
         </div>
 
         <div class="col-lg-3 col-md-6">
-          <div class="single-feature">
+          <div class="single-feature view">
             <a href="#" class="title">
               <i class="ti-money"></i>
               <h3>PEMBAYARAN</h3>
@@ -615,7 +613,7 @@
             </div>
           </div>
         </div>
-        
+
         <div class="col-lg-3 col-md-6">
           <div class="single-product">
             <div class="product-img">
@@ -884,15 +882,19 @@
         </div>
       </div>
       <div class="footer-bottom row align-items-center">
-        <p class="footer-text m-0 col-lg-8 col-md-12"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+        <p class="footer-text m-0 col-lg-8 col-md-12">
+          <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+          Copyright &copy;<script>
+            document.write(new Date().getFullYear());
+          </script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+          <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+        </p>
         <div class="col-lg-4 col-md-12 footer-social">
           <a href="https://www.facebook.com/profile.php?id=100033203269142" target="_blank">
-          <i class="fa fa-facebook"></i></a>
+            <i class="fa fa-facebook"></i></a>
           <a href="#"><i class="ti-control-play"></i></a>
           <a href="https://goo.gl/maps/m3QA8gkR2Nkek7Wx7" target="_blank">
-          <i class="ti-location-pin"></i></a>
+            <i class="ti-location-pin"></i></a>
         </div>
       </div>
     </div>
@@ -916,9 +918,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
   <script src="js/mail-script.js"></script>
   <script src="js/theme.js"></script>
   <script>
-    $(function () {
-  $('[data-toggle="tooltip"]').tooltip()
-})
+    $(function() {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
   </script>
 </body>
 

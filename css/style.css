@@ -16,6 +16,12 @@ h6 {
   color: #2a2a2a;
   font-weight: 500;
 }
+.view:hover {
+  background: rgba(214, 184, 46, 0.8);
+  color: white;
+  transition: 0.2s;
+  cursor: context-menu;
+}
 button:focus {
   outline: none;
   box-shadow: none;
@@ -117,7 +123,7 @@ ul {
   margin-bottom: 0px;
 }
 .active {
-  color: aquamarine;
+  color: #d5b82e;
 }
 .header_area {
   position: relative;
@@ -149,7 +155,7 @@ ul {
   transition: all 300ms linear 0s;
 }
 .header_area .navbar .icons:hover {
-  color: aquamarine;
+  color: #d5b82e;
 }
 @media (max-width: 992px) {
   .header_area .navbar .nav {
@@ -172,7 +178,7 @@ ul {
 }
 .header_area .navbar .nav .nav-item:hover .nav-link,
 .header_area .navbar .nav .nav-item.active .nav-link {
-  color: aquamarine;
+  color: #d5b82e;
 }
 .header_area .navbar .nav .nav-item.submenu {
   position: relative;
@@ -235,7 +241,7 @@ ul {
   border-bottom: none;
 }
 .header_area .navbar .nav .nav-item.submenu ul .nav-item:hover .nav-link {
-  background: aquamarine;
+  background: #d5b82e;
   color: #fff;
 }
 @media (min-width: 992px) {
@@ -348,7 +354,7 @@ ul {
   padding: 0px 19px;
 }
 .top_menu .right_side li:hover a {
-  color: aquamarine;
+  color: #d5b82e;
 }
 .top_menu .ac_btn {
   line-height: 28px;
@@ -365,15 +371,15 @@ ul {
   margin-top: 8px;
 }
 .top_menu .ac_btn:hover {
-  background: aquamarine;
+  background: #d5b82e;
   color: #fff;
-  border-color: aquamarine;
+  border-color: #d5b82e;
 }
 .top_menu .dn_btn {
   line-height: 28px;
-  border: 1px solid aquamarine;
+  border: 1px solid #d5b82e;
   display: inline-block;
-  background: aquamarine;
+  background: #d5b82e;
   padding: 0px 19px;
   font-size: 12px;
   font-family: "Roboto", sans-serif;
@@ -386,7 +392,7 @@ ul {
 .top_menu .dn_btn:hover {
   background: transparent;
   color: #2a2a2a;
-  border-color: aquamarine;
+  border-color: #d5b82e;
 }
 .top_menu .lan_pack {
   height: 30px;
@@ -416,7 +422,8 @@ ul {
   right: 20px;
 }
 .home_banner_area {
-  background: url(../img/banner/banner-bg.jpg) no-repeat center bottom;
+  background: url(../img/banner/banner2.jpg) no-repeat center bottom;
+  /* background: url(../img/LOGO.png) no-repeat center bottom; */
   background-size: cover;
   position: relative;
   z-index: 1;
@@ -424,7 +431,8 @@ ul {
 }
 @media (max-width: 767px) {
   .home_banner_area {
-    background-position: initial;
+    /* background-position: initial; */
+    max-width: 100%;
   }
 }
 .home_banner_area .banner_inner {
@@ -447,7 +455,7 @@ ul {
   color: #ffffff;
 }
 .home_banner_area .banner_inner .banner_content h3 span {
-  color: aquamarine;
+  color: #d5b82e;
 }
 .home_banner_area .banner_inner .banner_content h4 {
   font-size: 18px;
@@ -561,7 +569,7 @@ ul {
   display: none;
 }
 .banner_area .banner_inner .banner_content .page_link a:hover {
-  color: aquamarine;
+  color: #d5b82e;
 }
 .offer_area {
   background: url(../img/offer-bg.png) no-repeat center;
@@ -662,7 +670,7 @@ ul {
   top: 2px;
 }
 .single-blog .meta-top a:hover {
-  color: aquamarine;
+  color: #d5b82e;
 }
 .single-blog h4 {
   font-size: 20px;
@@ -696,10 +704,10 @@ ul {
   transform: scale(1.1);
 }
 .single-blog:hover h4 {
-  color: aquamarine;
+  color: #d5b82e;
 }
 .single-blog:hover .blog_btn {
-  color: aquamarine;
+  color: #d5b82e;
 }
 .l_blog_item .l_blog_text .date {
   margin-top: 24px;
@@ -717,7 +725,7 @@ ul {
   transition: all 300ms linear 0s;
 }
 .l_blog_item .l_blog_text h4:hover {
-  color: aquamarine;
+  color: #d5b82e;
 }
 .l_blog_item .l_blog_text p {
   margin-bottom: 0px;
@@ -738,7 +746,7 @@ ul {
   margin-right: 0px;
 }
 .causes_slider .owl-dots .owl-dot.active {
-  background: aquamarine;
+  background: #d5b82e;
 }
 .causes_item {
   background: #fff;
@@ -757,7 +765,7 @@ ul {
 .causes_item .causes_img .c_parcent span {
   width: 70%;
   height: 3px;
-  background: aquamarine;
+  background: #d5b82e;
   position: absolute;
   left: 0px;
   bottom: 0px;
@@ -767,7 +775,7 @@ ul {
   position: absolute;
   right: -10px;
   bottom: 0px;
-  background: aquamarine;
+  background: #d5b82e;
   color: #fff;
   padding: 0px 5px;
 }
@@ -782,7 +790,7 @@ ul {
   cursor: pointer;
 }
 .causes_item .causes_text h4:hover {
-  color: aquamarine;
+  color: #d5b82e;
 }
 .causes_item .causes_text p {
   font-size: 14px;
@@ -792,11 +800,11 @@ ul {
 }
 .causes_item .causes_bottom a {
   width: 50%;
-  border: 1px solid aquamarine;
+  border: 1px solid #d5b82e;
   text-align: center;
   float: left;
   line-height: 50px;
-  background: aquamarine;
+  background: #d5b82e;
   color: #fff;
   font-size: 14px;
   font-weight: 500;
@@ -846,7 +854,7 @@ ul {
   color: #2a2a2a;
 }
 .tags .tag_btn:before {
-  background: aquamarine;
+  background: #d5b82e;
 }
 .tags .tag_btn + .tag_btn {
   margin-left: 2px;
@@ -972,7 +980,7 @@ ul {
   left: 10px;
   display: block;
   color: #fff;
-  background: aquamarine;
+  background: #d5b82e;
   padding: 8px 15px;
   border-radius: 5px;
 }
@@ -1095,7 +1103,7 @@ ul {
   padding-top: 15px;
 }
 .blog_right_sidebar .post_category_widget .cat-list li:hover a {
-  color: aquamarine;
+  color: #d5b82e;
 }
 .blog_right_sidebar .popular_post_widget .post_item .media-body {
   justify-content: center;
@@ -1109,7 +1117,7 @@ ul {
   transition: all 0.3s linear;
 }
 .blog_right_sidebar .popular_post_widget .post_item .media-body h3:hover {
-  color: aquamarine;
+  color: #d5b82e;
 }
 .blog_right_sidebar .popular_post_widget .post_item .media-body p {
   font-size: 14px;
@@ -1134,7 +1142,7 @@ ul {
   font-size: 13px;
 }
 .blog_right_sidebar .tag_cloud_widget ul li a:hover {
-  background: aquamarine;
+  background: #d5b82e;
   color: #fff;
 }
 .blog_right_sidebar .instagram_feeds .instagram_row {
@@ -1231,7 +1239,7 @@ ul {
 .single-post-area .quotes {
   background: #fff;
   padding: 15px 15px 15px 20px;
-  border-left: 2px solid aquamarine;
+  border-left: 2px solid #d5b82e;
 }
 @media (min-width: 768px) {
   .single-post-area .quotes {
@@ -1286,7 +1294,7 @@ ul {
 }
 .single-post-area .navigation-top .social-icons li:hover i,
 .single-post-area .navigation-top .social-icons li:hover span {
-  color: aquamarine;
+  color: #d5b82e;
 }
 .single-post-area .blog-author {
   padding: 40px 30px;
@@ -1460,7 +1468,7 @@ ul {
   transition: all 300ms linear 0s;
 }
 .comments-area .btn-reply:hover {
-  color: aquamarine;
+  color: #d5b82e;
 }
 .comment-form {
   border-top: 1px solid #eee;
@@ -1561,7 +1569,7 @@ ul {
   margin-bottom: 20px;
 }
 .form-contact label {
-  color: aquamarine;
+  color: #d5b82e;
   font-size: 14px;
 }
 .form-contact .form-group {
@@ -1609,22 +1617,22 @@ ul {
 }
 .sample-text-area p b {
   font-weight: bold;
-  color: aquamarine;
+  color: #d5b82e;
 }
 .sample-text-area p i {
-  color: aquamarine;
+  color: #d5b82e;
   font-style: italic;
 }
 .sample-text-area p sup {
-  color: aquamarine;
+  color: #d5b82e;
   font-style: italic;
 }
 .sample-text-area p sub {
-  color: aquamarine;
+  color: #d5b82e;
   font-style: italic;
 }
 .sample-text-area p u {
-  color: aquamarine;
+  color: #d5b82e;
 }
 .elements_button .title_color {
   margin-bottom: 30px;
@@ -1736,11 +1744,11 @@ ul {
 }
 .link-border {
   background: transparent;
-  border: 1px solid aquamarine;
-  color: aquamarine;
+  border: 1px solid #d5b82e;
+  color: #d5b82e;
 }
 .link-border:before {
-  background: aquamarine;
+  background: #d5b82e;
 }
 .radius {
   border-radius: 3px;
@@ -2834,7 +2842,7 @@ h6 {
 }
 .main_btn {
   display: inline-block;
-  background: aquamarine;
+  background: #d5b82e;
   padding: 0px 32px;
   letter-spacing: 0.25px;
   color: #fff;
@@ -2845,7 +2853,7 @@ h6 {
   outline: none !important;
   box-shadow: none !important;
   text-align: center;
-  border: 1px solid aquamarine;
+  border: 1px solid #d5b82e;
   cursor: pointer;
   text-transform: uppercase;
   transition: all 300ms linear 0s;
@@ -2853,11 +2861,11 @@ h6 {
 }
 .main_btn:hover {
   background: transparent;
-  color: aquamarine;
+  color: #d5b82e;
 }
 .main_btn2 {
   display: inline-block;
-  background: aquamarine;
+  background: #d5b82e;
   padding: 0px 32px;
   color: #fff;
   font-family: "Roboto", sans-serif;
@@ -2868,35 +2876,35 @@ h6 {
   outline: none !important;
   box-shadow: none !important;
   text-align: center;
-  border: 1px solid aquamarine;
+  border: 1px solid #d5b82e;
   cursor: pointer;
   transition: all 300ms linear 0s;
 }
 .main_btn2:hover {
   background: transparent;
-  color: aquamarine;
+  color: #d5b82e;
 }
 .submit_btn {
   display: inline-block;
-  background: aquamarine;
+  background: #d5b82e;
   padding: 0px 30px;
   color: #fff;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 500;
   line-height: 38px;
-  border: 1px solid aquamarine;
+  border: 1px solid #d5b82e;
   border-radius: 0px;
   outline: none !important;
   box-shadow: none !important;
   text-align: center;
-  border: 1px solid aquamarine;
+  border: 1px solid #d5b82e;
   cursor: pointer;
   transition: all 300ms linear 0s;
 }
 .submit_btn:hover {
   background: transparent;
-  color: aquamarine;
+  color: #d5b82e;
 }
 .white_bg_btn {
   display: inline-block;
@@ -2916,9 +2924,9 @@ h6 {
   transition: all 300ms linear 0s;
 }
 .white_bg_btn:hover {
-  background: aquamarine;
+  background: #d5b82e;
   color: #fff;
-  border-color: aquamarine;
+  border-color: #d5b82e;
 }
 .org_btn {
   padding: 0px 40px;
@@ -2989,7 +2997,7 @@ h6 {
   -o-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
-  background: rgba(113, 205, 20, 0.4);
+  background: rgba(214, 184, 46, 0.4);
   transition: all 400ms ease;
 }
 .single-product .product-img .p_icon a {
@@ -3008,7 +3016,7 @@ h6 {
 }
 .single-product .product-img .p_icon a:hover {
   color: #fff;
-  background: aquamarine;
+  background: #d5b82e;
 }
 .single-product .product-btm {
   padding: 22px 25px 18px;
@@ -3039,7 +3047,7 @@ h6 {
   bottom: 0px;
 }
 .single-product:hover .product-btm h4 {
-  color: aquamarine;
+  color: #d5b82e;
 }
 .latest_product_inner {
   margin-bottom: -35px;
@@ -3131,7 +3139,7 @@ h6 {
   left: 0px;
   width: 100%;
   height: 1px;
-  background: aquamarine;
+  background: #d5b82e;
 }
 .p_filter_widgets .widgets_inner {
   border-bottom: 1px solid #eeeeee;
@@ -3174,8 +3182,8 @@ h6 {
 }
 .p_filter_widgets .list li.active a:before,
 .p_filter_widgets .list li:hover a:before {
-  background: aquamarine;
-  border-color: aquamarine;
+  background: #d5b82e;
+  border-color: #d5b82e;
 }
 .p_filter_widgets .list li:last-child {
   margin-bottom: 0px;
@@ -3193,7 +3201,7 @@ h6 {
   width: 16px;
   border-radius: 50%;
   border: none;
-  background: aquamarine;
+  background: #d5b82e;
   outline: none !important;
   box-shadow: none;
   top: -6px;
@@ -3362,7 +3370,7 @@ h6 {
 .s_product_text h2 {
   font-size: 24px;
   font-weight: bold;
-  color: aquamarine;
+  color: #d5b82e;
   margin-bottom: 15px;
 }
 .s_product_text .list li {
@@ -3382,7 +3390,7 @@ h6 {
   color: #555;
 }
 .s_product_text .list li a.active {
-  color: aquamarine;
+  color: #d5b82e;
 }
 .s_product_text .list li a.active span {
   color: #555;
@@ -3487,9 +3495,9 @@ h6 {
   font-weight: normal;
 }
 .product_description_area .nav.nav-tabs li a.active {
-  background: aquamarine;
+  background: #d5b82e;
   color: #fff;
-  border-color: aquamarine;
+  border-color: #d5b82e;
 }
 .product_description_area .tab-content {
   border-left: 1px solid #eee;
@@ -3507,7 +3515,7 @@ h6 {
   padding-bottom: 20px;
 }
 .product_description_area .tab-content .total_rate .box_total h4 {
-  color: aquamarine;
+  color: #d5b82e;
   font-size: 48px;
   font-weight: bold;
 }
@@ -3618,8 +3626,8 @@ h6 {
   top: 14px;
 }
 .review_item .media .media-body .reply_btn:hover {
-  background: aquamarine;
-  border-color: aquamarine;
+  background: #d5b82e;
+  border-color: #d5b82e;
   color: #fff;
 }
 .review_item p {
@@ -3844,7 +3852,7 @@ h6 {
   height: 10px;
   width: 10px;
   border-radius: 50%;
-  background: aquamarine;
+  background: #d5b82e;
   display: inline-block;
   position: absolute;
   right: 3px;
@@ -3937,7 +3945,7 @@ h6 {
   margin-bottom: 0px;
 }
 .check_title h2 a {
-  color: aquamarine;
+  color: #d5b82e;
   text-decoration: underline;
 }
 .returning_customer p {
@@ -4061,9 +4069,9 @@ h6 {
   border-radius: 3px;
 }
 .tp_btn:hover {
-  background: aquamarine;
+  background: #d5b82e;
   color: #fff;
-  border-color: aquamarine;
+  border-color: #d5b82e;
 }
 .billing_details h3 {
   font-size: 18px;
@@ -4118,7 +4126,7 @@ h6 {
   margin-right: 5px;
 }
 .billing_details .contact_form .form-group .creat_account a {
-  color: aquamarine;
+  color: #d5b82e;
 }
 .order_box {
   background: #f9f9f9;
@@ -4207,8 +4215,8 @@ h6 {
   padding: 20px;
 }
 .order_box .payment_item.active h4:before {
-  background: aquamarine;
-  border-color: aquamarine;
+  background: #d5b82e;
+  border-color: #d5b82e;
 }
 .order_box .creat_account {
   margin-bottom: 15px;
@@ -4219,7 +4227,7 @@ h6 {
   color: #2a2a2a;
 }
 .order_box .creat_account a {
-  color: aquamarine;
+  color: #d5b82e;
 }
 .order_box .main_btn {
   display: block;
@@ -4351,8 +4359,8 @@ h6 {
   -webkit-transition: background 0.25s linear;
 }
 .radion_btn input[type="radio"]:checked ~ .check {
-  border: 1px solid aquamarine;
-  background: aquamarine;
+  border: 1px solid #d5b82e;
+  background: #d5b82e;
 }
 .radion_btn input[type="radio"]:checked ~ .check::before {
   background: #fff;
@@ -4459,7 +4467,7 @@ h6 {
 .footer-area .single-footer-widget .click-btn {
   font-size: 12px;
   text-transform: uppercase;
-  background: aquamarine;
+  background: #d5b82e;
   color: #ffffff;
   border-radius: 0;
   border-top-left-radius: 0px;
@@ -4486,7 +4494,7 @@ h6 {
 }
 .footer-area .footer-bottom a,
 .footer-area .footer-bottom span {
-  color: aquamarine;
+  color: #d5b82e;
 }
 .footer-area .footer-bottom span {
   font-weight: 700;
@@ -4512,5 +4520,5 @@ h6 {
   transition: all 300ms linear 0s;
 }
 .footer-area .footer-bottom .footer-social a:hover {
-  background: aquamarine;
+  background: #d5b82e;
 }
