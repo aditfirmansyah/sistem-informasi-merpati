@@ -63,7 +63,7 @@
       <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light w-100">
           <!-- Brand and toggle get grouped for better mobile display -->
-          <a class="navbar-brand logo_h" href="#home">
+          <a class="navbar-brand logo_h" href="index.php">
             <img src="img/logo.png" alt="" />
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -77,7 +77,7 @@
               <div class="col-lg-7 pr-0">
                 <ul class="nav navbar-nav center_nav pull-right">
                   <li class="nav-item active">
-                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="index.php">Beranda</a>
                   </li>
                   <li class="nav-item submenu dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Toko</a>
@@ -121,14 +121,14 @@
                     </ul>
                   </li> -->
                   <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
+                    <a class="nav-link" href="contact.php">Kontak</a>
                   </li>
                 </ul>
               </div>
 
-              <!-- <div class="col-lg-5 pr-0">
+              <div class="col-lg-5 pr-0">
                 <ul class="nav navbar-nav navbar-right right_nav pull-right">
-                  <li class="nav-item">
+                  <!-- <li class="nav-item">
                     <a href="#" class="icons">
                       <i class="ti-search" aria-hidden="true"></i>
                     </a>
@@ -142,17 +142,17 @@
 
                   <li class="nav-item">
                     <a href="#" class="icons">
+                      <i class="ti-heart" aria-hidden="true"></i>
+                    </a>
+                  </li> -->
+
+                  <li class="nav-item">
+                    <a href="login.php" class="icons">
                       <i class="ti-user" aria-hidden="true"></i>
                     </a>
                   </li>
-
-                  <li class="nav-item">
-                    <a href="#" class="icons">
-                      <i class="ti-heart" aria-hidden="true"></i>
-                    </a>
-                  </li>
                 </ul>
-              </div> -->
+              </div>
             </div>
           </div>
         </nav>

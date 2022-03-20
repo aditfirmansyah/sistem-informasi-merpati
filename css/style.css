@@ -2906,6 +2906,28 @@ h6 {
   background: transparent;
   color: #d5b82e;
 }
+.reset_btn {
+  display: inline-block;
+  background: #be253b;
+  padding: 0px 30px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 38px;
+  border: 1px solid #be253b;
+  border-radius: 0px;
+  outline: none !important;
+  box-shadow: none !important;
+  text-align: center;
+  border: 1px solid #be253b;
+  cursor: pointer;
+  transition: all 300ms linear 0s;
+}
+.reset_btn:hover {
+  background: transparent;
+  color: #be253b;
+}
 .white_bg_btn {
   display: inline-block;
   background: #f6f6f6;
